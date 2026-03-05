@@ -22,12 +22,12 @@ start_service() {
 }
 
 # Start all services
-start_service "microservices/product-service" "Product Service" 3001
-start_service "microservices/cart-service" "Cart Service" 3002
-start_service "microservices/order-service" "Order Service" 3003
-start_service "microservices/ai-service" "AI Service" 3004
-start_service "microservices/user-service" "User Service" 3005
-start_service "microservices/api-gateway" "API Gateway" 3000
+start_service "../microservices/product-service" "Product Service" 3001
+start_service "../microservices/cart-service" "Cart Service" 3002
+start_service "../microservices/order-service" "Order Service" 3003
+start_service "../microservices/ai-service" "AI Service" 3004
+start_service "../microservices/user-service" "User Service" 3005
+start_service "../microservices/api-gateway" "API Gateway" 3000
 
 echo "⏳ Waiting for services to start up..."
 sleep 10
