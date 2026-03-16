@@ -17,6 +17,15 @@
       "email": "john@example.com",
       "createdAt": "2026-02-28T11:36:03.713Z",
       "updatedAt": "2026-02-28T11:36:03.713Z"
+    },
+    {
+      "id": "1c27a6c2-1012-4dae-8791-495c98bde8c1",
+      "username": "menaka",
+      "password": "$2a$10$8/.9EWjMhutKzfxTmBEbluWnRZqkjk3tmh11eNpUfsLtrT.j.yUNq",
+      "name": "Menaka Mahajan",
+      "email": "menakaha@gmail.com",
+      "createdAt": "2026-03-16T06:53:37.518Z",
+      "updatedAt": "2026-03-16T06:53:37.518Z"
     }
   ]
 }
