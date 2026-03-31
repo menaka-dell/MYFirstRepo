@@ -12,63 +12,7 @@ export interface CartItem extends Product {
 }
 
 export interface Order {
-  id: string;Act as a Data Privacy Officer. Generate a JSON object representing a valid 'Order' for testing, based on the following TypeScript definitions. 
-IMPORTANT: 
-1. Ensure all PII (names, emails, addresses) is clearly fake/anonymized (e.g., "User_123", "123 Test St"). 
-2. The 'status' must be 'PENDING'. 
-3. Include at least 2 'items'. 
-
-TYPESCRIPT DEFINITIONS: 
-interface Order { 
-id: string; 
-userId: string; 
-items: OrderItem[]; 
-totalAmount: number; 
-status: 'PENDING' | 'CONFIRMED' | 'SHIPPED' | 'DELIVERED' | 'CANCELLED'; shippingAddress: Address; 
-createdAt: Date;
-}
-interface Address 
-{ 
-street: string; 
-city: string; 
-state: string; 
-zipCode: string; 
-country: string;
-}
-interface OrderItem 
-{ 
-productId: string; 
-quantity: number; 
-price: number;
-}Act as a Data Privacy Officer. Generate a JSON object representing a valid 'Order' for testing, based on the following TypeScript definitions. 
-IMPORTANT: 
-1. Ensure all PII (names, emails, addresses) is clearly fake/anonymized (e.g., "User_123", "123 Test St"). 
-2. The 'status' must be 'PENDING'. 
-3. Include at least 2 'items'. 
-
-TYPESCRIPT DEFINITIONS: 
-interface Order { 
-id: string; 
-userId: string; 
-items: OrderItem[]; 
-totalAmount: number; 
-status: 'PENDING' | 'CONFIRMED' | 'SHIPPED' | 'DELIVERED' | 'CANCELLED'; shippingAddress: Address; 
-createdAt: Date;
-}
-interface Address 
-{ 
-street: string; 
-city: string; 
-state: string; 
-zipCode: string; 
-country: string;
-}
-interface OrderItem 
-{ 
-productId: string; 
-quantity: number; 
-price: number;
-}
+  id: string;
   userId: string;
   items: CartItem[];
   totalAmount: number;
